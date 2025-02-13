@@ -1,8 +1,9 @@
-def hello():
-  print("Hello, world!")
+def hello(name):
+  print(f"Hello, {name}!")
 
 def main():
-  hello()
+  name = "Ifeanyi"
+  hello(name)
 
 if __name__ == "__main__":
   main()
